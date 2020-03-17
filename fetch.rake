@@ -4,7 +4,7 @@ require 'byebug'
 require 'git'
 
 EXPORT_TABLES = [:items]
-SPREADSHEET_KEY = "1oLsj8Gc-1KK6fVkaDvS645MFDO50JTTc3Wc5zS3Ci9eFlGP1b5r4"
+SPREADSHEET_KEY = "1KK6fVkaDvS645MFDO50JTTc3Wc5zS3Ci9eFlGP1b5r4"
 
 namespace :masterdata do
   task :fetch do |_, args|

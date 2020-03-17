@@ -42,6 +42,7 @@ namespace :masterdata do
     begin
       git_client.commit("update by Masterdata Task #{Time.now.to_s}")
       git_client.push("origin", work_branch_name)
+      puts "completed!"
     rescue Git::GitExecuteError => e
       puts e.class
       puts e.message

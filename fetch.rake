@@ -3,7 +3,7 @@ require "google_drive"
 require 'byebug'
 require 'git'
 
-EXPORT_TABLES = [:items, :dungeons, :relics]
+EXPORT_TABLES = [:items, :dungeons, :relics, :enemies]
 SPREADSHEET_KEY = "1KK6fVkaDvS645MFDO50JTTc3Wc5zS3Ci9eFlGP1b5r4"
 
 namespace :masterdata do

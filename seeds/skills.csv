@@ -1,0 +1,5 @@
+id,name,description,cost,reusable,is_defence,effect1_category,effect1_to_self,effect1_value,effect2_category,effect2_to_self,effect2_value,effect3_category,effect3_to_self,effect3_value
+1,ショック,敵に2点ダメージ。,20,FALSE,FALSE,Damage,FALSE,2,,,,,,
+2,無限の火,敵に1点ダメージ。,35,TRUE,FALSE,Damage,FALSE,1,,,,,,
+3,3点ガード,3点ダメージを軽減するシールドを展開。,10,FALSE,TRUE,AddShield,TRUE,3,,,,,,
+4,ドレイン,HPを2吸収。ついでにMPを25リターン。,50,FALSE,TRUE,Damage,FALSE,2,AddHp,TRUE,2,AddMp,TRUE,25

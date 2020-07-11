@@ -5,3 +5,5 @@ id,name,description,cost,reusable,is_defence,effect1_category,effect1_to_self,ef
 4,ドレイン,HPを2吸収。ついでにMPを25リターン。,50,FALSE,TRUE,Damage,FALSE,2,AddHp,TRUE,2,AddMp,TRUE,25
 5,アグニ,すべてを焼き尽くす炎で相手に7点ダメージ。,80,FALSE,FALSE,Damage,FALSE,7,,,,,,
 6,プチガード,1点ダメージだけ軽減し、HPも1回復。,5,FALSE,TRUE,AddShield,TRUE,1,AddHp,TRUE,1,,,
+7,巨大化,エネミー専用。1ダメージ。,30,FALSE,FALSE,Damage,FALSE,1,,,,,,
+8,タックル,エネミー専用。相手に2ダメージ、反動で自分に1ダメージ。,60,FALSE,FALSE,Damage,FALSE,2,Damage,TRUE,1,,,

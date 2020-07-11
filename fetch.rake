@@ -20,9 +20,11 @@ namespace :masterdata do
         puts "saved #{table_name}.csv"
         sleep(1)
       rescue Google::Apis::RateLimitError
-        puts "rate limit exceeded, sleeping 10 seconds..."
+        puts "rate limit exceeded, sleeping 60 seconds..."
         retry_count += 1
+        sleep(60)
         retry if retry_count < 5
+      end
     end
     push_to_repository
   end

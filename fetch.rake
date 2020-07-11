@@ -16,7 +16,7 @@ namespace :masterdata do
       ws = sess.worksheet_by_title(table_name)
       ws.export_as_file("seeds/#{table_name}.csv")
       puts "saved #{table_name}.csv"
-      sleep(1)
+      sleep(3)
     end
     push_to_repository
   end

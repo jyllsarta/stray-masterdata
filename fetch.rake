@@ -23,6 +23,7 @@ namespace :masterdata do
         puts "rate limit exceeded, sleeping 10 seconds..."
         retry_count += 1
         retry if retry_count < 5
+      end
     end
     push_to_repository
   end

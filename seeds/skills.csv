@@ -7,7 +7,7 @@ id,name,icon_image_path,description,for_player,cost,reusable,is_defence,effect1_
 6,プチガード,default.gif,1点ダメージだけ軽減し、HPも1回復。,TRUE,5,FALSE,TRUE,AddShield,TRUE,1,AddHp,TRUE,1,,,
 7,巨大化,default.gif,エネミー専用。1ダメージ。,FALSE,30,FALSE,FALSE,Damage,FALSE,1,,,,,,
 8,タックル,default.gif,エネミー専用。相手に2ダメージ、反動で自分に1ダメージ。,FALSE,60,FALSE,FALSE,Damage,FALSE,2,Damage,TRUE,1,,,
-1101,スマッシュ,1101.gif,SP攻撃力をこのターンのみ4点追加。何度でも使える。,TRUE,80,TRUE,FALSE,AddSpAttackTemp,TRUE,4,,,,,,
+1101,スマッシュ,1101.gif,SP攻撃力をこのターンのみ4点追加。何度でも使える。,TRUE,80,TRUE,FALSE,AddSpDamage,TRUE,4,,,,,,
 1102,シールド,1102.gif,このターンのみ有効なダメージ軽減シールドを2点分展開する。何度でも使える。防御スキルの使用ターンはMPが回復しない。,TRUE,40,FALSE,TRUE,AddShield,TRUE,2,,,,,,
 1201,ブレイク,1201.gif,このターンのみお互いの力ポイントを0にする。防御スキルの使用ターンはMPが回復しない。,TRUE,40,FALSE,TRUE,AlterPower,TRUE,0,AlterPower,FALSE,0,,,
 1202,アクセル,1202.gif,MPを20消費し、MPを50チャージ。,TRUE,20,FALSE,FALSE,AddMp,TRUE,50,,,,,,

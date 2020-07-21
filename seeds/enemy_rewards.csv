@@ -1,0 +1,4 @@
+id,enemy_id,giftable_type,giftable_id,amount
+1,1,Coin,1,5000
+2,2,Coin,1,10000
+3,3,Star,1,3

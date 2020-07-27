@@ -3,7 +3,6 @@ require "google_drive"
 require 'byebug'
 require 'git'
 
-EXPORT_TABLES = [:items, :dungeons, :relics, :enemies, :cards, :enemy_cards, :class_cards, :skills, :relic_skills, :enemy_skills, :enemy_rewards, :quests]
 SPREADSHEET_KEY = "1KK6fVkaDvS645MFDO50JTTc3Wc5zS3Ci9eFlGP1b5r4"
 
 namespace :masterdata do
@@ -13,7 +12,8 @@ namespace :masterdata do
     session = GoogleDrive::Session.from_config("config.json")
     sess = session.spreadsheet_by_key(SPREADSHEET_KEY)
     retry_count = 0
-    EXPORT_TABLES.map(&:to_s).each do |table_name|
+    tables = load_config
+    tables.each do |table_name|
       begin
         ws = sess.worksheet_by_title(table_name)
         ws.export_as_file("seeds/#{table_name}.csv")
@@ -27,6 +27,10 @@ namespace :masterdata do
       end
     end
     push_to_repository
+  end
+
+  def load_config
+    YAML.load(File.read("tables.yml"))['tables']
   end
 
   def work_branch_name

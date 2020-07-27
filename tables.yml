@@ -1,0 +1,13 @@
+tables:
+  - items
+  - dungeons
+  - relics
+  - enemies
+  - cards
+  - enemy_cards
+  - class_cards
+  - skills
+  - relic_skills
+  - enemy_skills
+  - enemy_rewards
+  - quests

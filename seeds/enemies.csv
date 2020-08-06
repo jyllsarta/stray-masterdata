@@ -3,7 +3,7 @@ id,quest_id,image_name,name,rank,hp,power,tech,special
 102,1,nya_blue,とげ猫,5,8,1,1,1
 103,1,faily,コモン妖精,20,12,1,1,1
 104,1,gob_fighter,ごろつきゴブリン,30,14,1,1,1
-105,1,kani_gold,浜の王者・シーフラ,45,20,1,1,2
+105,1,kani_gold,浜の王者シーフラ,45,20,1,1,2
 201,2,gob,森のゴブリン,50,13,1,1,1
 202,2,gob_rance,槍ゴブリン,70,16,1,1,1
 203,2,faily_eleki,しびれようせい,100,11,1,1,2

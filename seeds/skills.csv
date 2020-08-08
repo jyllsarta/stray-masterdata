@@ -5,7 +5,7 @@ id,name,icon_image_path,description,for_player,cost,reusable,is_defence,effect1_
 104,ビルド,104.gif,この戦闘中、永久にデッキ内の全カードの力・技ポイントをそれぞれ4点追加。,TRUE,75,FALSE,FALSE,UpgradeDeck,TRUE,4,,,,,,
 201,バーニング,201.gif,相手に3点ダメージ。,TRUE,50,FALSE,FALSE,Damage,FALSE,3,,,,,,
 202,ヒール,202.gif,HPを3点回復。,TRUE,50,FALSE,TRUE,AddHp,TRUE,3,,,,,,
-203,アクセル,203.gif,MPを20消費し、MPを60チャージ。MP上限を超えて溜めることができる。,TRUE,20,FALSE,FALSE,AddMp,TRUE,60,,,,,,
+203,アクセル,203.gif,MPを20消費し、MPを60チャージ。MP上限を超えて溜めることができる。,TRUE,20,FALSE,FALSE,AddMpOverflow,TRUE,60,,,,,,
 204,オープン,204.gif,手札の上限枚数を2枚増やす。,TRUE,30,FALSE,FALSE,AddHandForever,TRUE,2,,,,,,
 301,スパーク,301.gif,相手に1点ダメージ。何度でも使える。,TRUE,25,TRUE,FALSE,Damage,FALSE,1,,,,,,
 302,スロウ,302.gif,相手に1点ダメージを与えつつ、相手のMPにも30ダメージ。,TRUE,45,FALSE,FALSE,Damage,FALSE,1,DamageMp,FALSE,30,,,

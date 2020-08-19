@@ -3,12 +3,12 @@ id,enemy_id,giftable_type,giftable_id,amount
 2,102,Coin,1,1010
 3,103,Coin,1,1020
 4,104,Coin,1,1030
-5,105,Coin,1,1040
+5,105,Dungeon,1,1
 6,201,Coin,1,1050
 7,202,RandomItem,70,1
 8,203,Coin,1,1070
 9,204,Coin,1,1080
-10,205,Coin,1,1090
+10,205,Dungeon,2,1
 11,10001,Coin,1,1100
 12,10002,Coin,1,1110
 13,10003,Coin,1,1120

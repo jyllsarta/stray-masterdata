@@ -5,7 +5,7 @@ id,enemy_id,giftable_type,giftable_id,amount
 4,104,Coin,1,1030
 5,105,Coin,1,1040
 6,201,Coin,1,1050
-7,202,Coin,1,1060
+7,202,RandomItem,70,1
 8,203,Coin,1,1070
 9,204,Coin,1,1080
 10,205,Coin,1,1090

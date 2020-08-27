@@ -6,7 +6,7 @@ id,name,icon_image_path,description,for_player,cost,reusable,is_defence,effect1_
 105,シールド,105.gif,このターン、ダメージを3点まで軽減する盾を展開する。何度でも使える。防御スキルの使用ターンはMPが回復しない。,TRUE,10,TRUE,TRUE,AddShield,TRUE,3,,,,,,
 106,ビルド,106.gif,この戦闘中、永久にデッキ内の全カードの力・技ポイントをそれぞれ3点追加。,TRUE,80,FALSE,FALSE,UpgradeDeck,TRUE,3,,,,,,
 201,アイス,201.gif,相手に1点ダメージ。,TRUE,10,FALSE,FALSE,Damage,FALSE,1,,,,,,
-202,ヒール,202.gif,HPを4点回復。防御スキルの使用ターンはMPが回復しない。,TRUE,30,FALSE,TRUE,AddHp,TRUE,4,,,,,,
+202,ヒール,202.gif,HPを4点回復。防御スキルの使用ターンはMPが回復しない。,TRUE,50,FALSE,TRUE,AddHp,TRUE,4,,,,,,
 203,ライズ,203.gif,全カードの力・技ポイントを1点追加し、手札枚数を+1し、HPを1回復。このターンMPが回復しない。,TRUE,40,TRUE,TRUE,UpgradeDeck,TRUE,1,AddHp,TRUE,1,AddHandForever,TRUE,1
 204,バーニング,204.gif,相手に3点ダメージ。,TRUE,50,FALSE,FALSE,Damage,FALSE,3,,,,,,
 205,オープン,205.gif,手札の上限枚数を2枚増やす。,TRUE,10,FALSE,FALSE,AddHandForever,TRUE,2,,,,,,

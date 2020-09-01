@@ -11,3 +11,4 @@ tables:
   - enemy_skills
   - enemy_rewards
   - quests
+  - release_notes

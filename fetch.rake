@@ -42,7 +42,7 @@ namespace :masterdata do
 
     git_client.reset_hard
     git_client.pull
-    git_client.checkout("master")
+    git_client.checkout("develop")
   end
 
   def push_to_repository
@@ -60,6 +60,6 @@ namespace :masterdata do
       puts e.message
       puts e.backtrace
     end
-    git_client.checkout("master")
+    git_client.checkout("develop")
   end
 end

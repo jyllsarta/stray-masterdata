@@ -12,3 +12,7 @@ tables:
   - enemy_rewards
   - quests
   - release_notes
+  - achievements
+  - achievement_steps
+  - achievement_step_rewards
+

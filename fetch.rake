@@ -41,8 +41,8 @@ namespace :masterdata do
     git_client = Git.open("./")
 
     git_client.reset_hard
-    git_client.pull
     git_client.checkout("develop")
+    git_client.pull
   end
 
   def push_to_repository

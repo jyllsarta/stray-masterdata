@@ -2,3 +2,6 @@ id,type,target_id,description
 1,Achievement::Type::TotalCoin,,トータルコイン収集枚数
 2,Achievement::Type::TotalStar,,星のカケラ取得量
 3,Achievement::Type::CoinDoublets,,コイン枚数がゾロ目になる
+4,Achievement::Type::TotalEvent,,トータルイベント回数
+5,Achievement::Type::DeepestFloor,,潜った最大フロア数
+6,Achievement::Type::TotalPlayTime,,総プレイ時間

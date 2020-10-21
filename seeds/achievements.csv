@@ -5,3 +5,6 @@ id,type,target_id,description
 4,Achievement::Type::TotalEvent,,トータルイベント回数
 5,Achievement::Type::DeepestFloor,,潜った最大フロア数
 6,Achievement::Type::TotalPlayTime,,総プレイ時間
+7,Achievement::Type::SsRankBattle,,SS勝利回数
+8,Achievement::Type::MaxVelocity,,ベロシティ333達成
+9,Achievement::Type::DeathCount,,全滅回数

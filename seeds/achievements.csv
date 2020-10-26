@@ -8,3 +8,17 @@ id,type,target_id,description
 7,Achievement::Type::SsRankBattle,,SS勝利回数
 8,Achievement::Type::MaxVelocity,,ベロシティ333達成
 9,Achievement::Type::DeathCount,,全滅回数
+10,Achievement::Type::MaxItemRank,,最大プラス値
+11,Achievement::Type::ObtainItem,3,食品サンプルを手に入れる
+12,Achievement::Type::WinEnemy,105,敵を倒した
+13,Achievement::Type::WinEnemyWithNoSkill,104,スキルなしで敵を倒した
+14,Achievement::Type::WinEnemyUpperRank,103,平均装備ランクが自分より上の敵を倒した
+15,Achievement::Type::WinEnemyWithNoEquip,102,何も装備しないで敵を倒した
+16,Achievement::Type::ManualResurrect,,手動全回復をした
+17,Achievement::Type::RegisteredUsername,,引き継ぎ設定した
+18,Achievement::Type::MaxAttack,,キャラの最大攻撃力
+19,Achievement::Type::MaxDefence,,キャラの最大守備力
+20,Achievement::Type::AverageEquipItemRank,,平均アイテムランク
+21,Achievement::Type::EditEquip,,装備編集した？
+22,Achievement::Type::FillEquipSlot,,装備枠を埋めた？
+23,Achievement::Type::UniqueItemCount,,ユニークアイテム種類数

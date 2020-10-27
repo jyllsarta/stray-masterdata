@@ -13,7 +13,6 @@ namespace :masterdata do
     sess = session.spreadsheet_by_key(SPREADSHEET_KEY)
     retry_count = 0
     tables = selected_tables || load_config
-    filter_tables(tables)
     tables.each do |table_name|
       begin
         ws = sess.worksheet_by_title(table_name)

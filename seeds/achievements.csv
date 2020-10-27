@@ -22,3 +22,4 @@ id,type,target_id,description
 21,Achievement::Type::EditEquip,,装備編集した？
 22,Achievement::Type::FillEquipSlot,,装備枠を埋めた？
 23,Achievement::Type::UniqueItemCount,,ユニークアイテム種類数
+24,Achievement::Type::LongTimeAbsent,,6時間以上の放置をした

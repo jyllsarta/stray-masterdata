@@ -12,7 +12,8 @@ namespace :masterdata do
     session = GoogleDrive::Session.from_config("config.json")
     sess = session.spreadsheet_by_key(SPREADSHEET_KEY)
     retry_count = 0
-    tables = load_config
+    tables = selected_tables || load_config
+    filter_tables(tables)
     tables.each do |table_name|
       begin
         ws = sess.worksheet_by_title(table_name)
@@ -27,6 +28,11 @@ namespace :masterdata do
       end
     end
     push_to_repository
+  end
+
+  def selected_tables
+    return nil if ENV["TARGET_TABLES"].nil?
+    ENV["TARGET_TABLES"].split(",")
   end
 
   def load_config

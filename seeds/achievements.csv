@@ -15,7 +15,7 @@ id,type,target_id,description
 14,Achievement::Type::WinEnemyUpperRank,103,平均装備ランクが自分より上の敵を倒した
 15,Achievement::Type::WinEnemyWithNoEquip,102,何も装備しないで敵を倒した
 16,Achievement::Type::ManualResurrect,,手動全回復をした
-17,Achievement::Type::RegisteredUsername,,引き継ぎ設定した
+17,Achievement::Type::RegisterUsername,,引き継ぎ設定した
 18,Achievement::Type::MaxAttack,,キャラの最大攻撃力
 19,Achievement::Type::MaxDefence,,キャラの最大守備力
 20,Achievement::Type::AverageEquipItemRank,,平均アイテムランク
@@ -23,3 +23,7 @@ id,type,target_id,description
 22,Achievement::Type::FillEquipSlot,,装備枠を埋めた？
 23,Achievement::Type::UniqueItemCount,,ユニークアイテム種類数
 24,Achievement::Type::LongTimeAbsent,,6時間以上の放置をした
+25,Achievement::Type::ClickFieldCharacter,,フィールドにいる二人をクリックした
+26,Achievement::Type::SignIn,,ページ読み込み2回目
+27,Achievement::Type::OpenLog,,ログの開閉をした
+28,Achievement::Type::MaxRarityItemEvent,,◆装備をイベントで拾った

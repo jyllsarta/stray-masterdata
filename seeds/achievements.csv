@@ -23,3 +23,7 @@ id,type,target_id,description
 22,Achievement::Type::FillEquipSlot,,装備枠を埋めた？
 23,Achievement::Type::UniqueItemCount,,ユニークアイテム種類数
 24,Achievement::Type::LongTimeAbsent,,6時間以上の放置をした
+25,Achievement::Type::ClickFieldCharacter,,フィールドにいる二人をクリックした
+26,Achievement::Type::SignIn,,ページ読み込み2回目
+27,Achievement::Type::OpenLog,,ログの開閉をした
+28,Achievement::Type::MaxRarityItemEvent,,◆装備をイベントで拾った

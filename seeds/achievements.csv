@@ -15,7 +15,7 @@ id,type,target_id,description
 14,Achievement::Type::WinEnemyUpperRank,103,平均装備ランクが自分より上の敵を倒した
 15,Achievement::Type::WinEnemyWithNoEquip,102,何も装備しないで敵を倒した
 16,Achievement::Type::ManualResurrect,,手動全回復をした
-17,Achievement::Type::RegisteredUsername,,引き継ぎ設定した
+17,Achievement::Type::RegisterUsername,,引き継ぎ設定した
 18,Achievement::Type::MaxAttack,,キャラの最大攻撃力
 19,Achievement::Type::MaxDefence,,キャラの最大守備力
 20,Achievement::Type::AverageEquipItemRank,,平均アイテムランク

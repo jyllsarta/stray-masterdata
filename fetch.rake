@@ -12,7 +12,7 @@ namespace :masterdata do
     session = GoogleDrive::Session.from_config("config.json")
     sess = session.spreadsheet_by_key(SPREADSHEET_KEY)
     retry_count = 0
-    tables = load_config
+    tables = selected_tables || load_config
     tables.each do |table_name|
       begin
         ws = sess.worksheet_by_title(table_name)
@@ -29,6 +29,11 @@ namespace :masterdata do
     push_to_repository
   end
 
+  def selected_tables
+    return nil if ENV["TARGET_TABLES"].nil?
+    ENV["TARGET_TABLES"].split(",")
+  end
+
   def load_config
     YAML.load(File.read("tables.yml"))['tables']
   end
@@ -41,8 +46,8 @@ namespace :masterdata do
     git_client = Git.open("./")
 
     git_client.reset_hard
-    git_client.pull
     git_client.checkout("develop")
+    git_client.pull
   end
 
   def push_to_repository

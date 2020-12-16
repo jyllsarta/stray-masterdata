@@ -37,3 +37,5 @@ id,name,icon_image_path,description,for_player,cost,reusable,is_defence,effect1_
 1018,癒しの雨,304.gif,敵専用。お互いにHPを10回復。,FALSE,50,FALSE,TRUE,AddHp,TRUE,10,AddHp,FALSE,10,,,
 1019,無力,default.gif,敵専用。こちらの力ポイントをゼロにする。,FALSE,20,FALSE,FALSE,AlterPower,FALSE,0,,,,,,
 1020,無知,default.gif,敵専用。こちらの技ポイントをゼロにする。,FALSE,20,FALSE,FALSE,AlterTech,FALSE,0,,,,,,
+5000,ポイズン,default.gif,実験用。敵に毒ステートを付与する。 ,TRUE,5,TRUE,FALSE,AddState,FALSE,1,,,,,,
+5001,リジェネ,default.gif,実験用。自身にリジェネを付与する。,TRUE,10,FALSE,FALSE,AddState,TRUE,2,,,,,,

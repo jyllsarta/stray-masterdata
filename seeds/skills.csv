@@ -42,4 +42,4 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 6000,イグゾース,default.gif,実験用。最後の力を振り絞って相手に2点ダメージ。,TRUE,40,,FALSE,TRUE,FALSE,Damage,FALSE,2,,,,,,
 6001,スーフラ,default.gif,実験用。最後の力を振り絞ってHPを10回復。,TRUE,30,,TRUE,TRUE,TRUE,AddHp,TRUE,10,,,,,,
 7000,リミット,default.gif,実験用。HPが7以下の時にのみ発動できる。10回復。,TRUE,0,7,FALSE,FALSE,TRUE,AddHp,TRUE,10,,,,,,
-7000,リミバ,default.gif,実験用。HPが4以下かつMP30以上の時にのみ発動できる。10回復。,TRUE,30,4,FALSE,FALSE,FALSE,AddHp,TRUE,10,,,,,,
+7001,リミバ,default.gif,実験用。HPが4以下かつMP30以上の時にのみ発動できる。10回復。,TRUE,30,4,FALSE,FALSE,FALSE,AddHp,TRUE,10,,,,,,

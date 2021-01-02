@@ -15,4 +15,4 @@ tables:
   - achievements
   - achievement_steps
   - achievement_step_rewards
-
+  - achievement_ranks

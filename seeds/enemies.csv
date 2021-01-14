@@ -2,7 +2,7 @@ id,quest_id,is_boss,image_name,scale_type,name,rank,hp,power,tech,special,memo
 101,1,FALSE,gob,2,ゴブリン,1,5,1,1,1,
 102,1,FALSE,faily,3,妖精,5,6,1,1,1,
 103,1,FALSE,nya_blue,2,猫,25,8,1,1,1,
-104,1,FALSE,magi,1,エリート,35,9,1,1,1,
+104,1,FALSE,magi_blue,1,エリート,35,9,1,1,1,
 105,1,TRUE,faily_queen,3,浜の妖精,50,10,1,1,1,
 201,2,FALSE,nya_black,2,猫,75,10,2,2,2,
 202,2,FALSE,faily_book,3,妖精,100,9,1,1,1,

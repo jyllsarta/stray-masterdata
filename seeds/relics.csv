@@ -23,3 +23,5 @@ id,parent_relic_id,cost,category,rank,name,description
 43,42,40,hp,1,HPプラスLv3,バトル時の最大HPをプラス1。
 44,43,60,hp,1,HPプラスLv4,バトル時の最大HPをプラス1。
 45,44,80,hp,1,HPプラスLv5,バトル時の最大HPをプラス1。
+98,,1,item_rank,1,強化上限+50,強化できる上限値+50。
+99,,1,item_rank,1,強化上限+50,強化できる上限値+50。

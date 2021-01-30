@@ -67,7 +67,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 20204,アクセル,20204.gif,MPを50チャージ。,TRUE,20,,FALSE,FALSE,FALSE,FALSE,AddMpOverflow,TRUE,50,,,,,,
 20205,フォーリン,20205.gif,3ターンの間、ターン終了時に敵に2ダメージ。,TRUE,60,,FALSE,FALSE,FALSE,FALSE,AddState,TRUE,2009,,,,,,
 20206,ライズ,20206.gif,全カードの力・技ポイントを+1し、手札枚数を+1し、HPを1回復。このターンMPが回復しない。,TRUE,45,,TRUE,FALSE,TRUE,FALSE,UpgradeDeck,TRUE,1,AddHp,TRUE,1,AddHandForever,TRUE,1
-20207,ストーム,20207.gif,敵に1ダメージ。何度でも使える、使用するたびにダメージが1増加する。,TRUE,25,,TRUE,FALSE,FALSE,FALSE,StormDamage,FALSE,1,AddState,TRUE,2010,,,
+20207,ストーム,20207.gif,敵に1ダメージ。何度でも使える、使用するたびにダメージが1増加する。,TRUE,25,,TRUE,FALSE,FALSE,FALSE,StormDamage,FALSE,1,CheckStorm,TRUE,1,,,
 20208,ブレイズ,20208.gif,敵に6ダメージ。【火】,TRUE,50,,FALSE,FALSE,FALSE,FALSE,FireDamage,FALSE,6,,,,,,
 20209,リザレクト,20209.gif,HPを10回復。防御スキルの使用ターンはMPが回復しない。,TRUE,50,,FALSE,FALSE,TRUE,FALSE,AddHp,TRUE,10,,,,,,
 20210,レヴァリエ,20210.gif,次のターンの終了時に15ダメージ。,TRUE,100,,FALSE,FALSE,FALSE,FALSE,AddState,TRUE,2011,,,,,,
@@ -75,9 +75,9 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 20402,オープン,20402.gif,手札枚数を+2。,TRUE,10,,FALSE,FALSE,FALSE,FALSE,AddHandForever,TRUE,2,,,,,,
 20404,軽技ノ重,20404.gif,パンは腹持ちが悪い。パッシブ。3ターン目まで力ダメージと技ダメージを+1。4ターン目以降は-1。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2012,,,,,,
 20406,魔力ノ巻,20406.gif,初手で食え。MP+20。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddMpOverflow,TRUE,20,,,,,,
-20408,マナブラー,20408.gif,5ターンの間、ターン終了時にMP+20。,TRUE,30,,FALSE,FALSE,FALSE,FALSE,AddState,TRUE,2013,,,,,,
+20408,マナブラー,20408.gif,5ターンの間、ターン終了時にMP+20。,TRUE,30,,FALSE,FALSE,FALSE,FALSE,AddState,TRUE,2014,,,,,,
 20410,カラミティ,20410.gif,この戦闘中、自分の全スキルは∞を失い、発動時の効果量が3倍になる。,TRUE,70,,FALSE,FALSE,FALSE,FALSE,Calamity,TRUE,3,,,,,,
 30402,速攻ノ槍,30402.gif,戦闘開始時に2ダメージ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,Damage,FALSE,2,,,,,,
-30404,生命ノ形,30404.gif,致命的なダメージを受けた時、一度だけHP3で耐える。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2014,,,,,,
+30404,生命ノ形,30404.gif,致命的なダメージを受けた時、一度だけHP3で耐える。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2015,,,,,,
 30406,茶魔ノ巻,30406.gif,急いで食え。抹茶味。MP+50。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddMpOverflow,TRUE,50,,,,,,
 30408,岩力ノ箪,30408.gif,力ダメージ・技ダメージ・SPダメージ+1。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddSpDamageForever,TRUE,1,AddPowerDamageForever,TRUE,1,AddTechDamageForever,TRUE,1

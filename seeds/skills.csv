@@ -25,7 +25,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 20208,ブレイズ,20208.gif,敵に6ダメージ。【火】,TRUE,50,,FALSE,FALSE,FALSE,FALSE,FireDamage,FALSE,6,,,,,,
 20209,リザレクト,20209.gif,HPを10回復。防御スキルの使用ターンはMPが回復しない。,TRUE,50,,FALSE,FALSE,TRUE,FALSE,AddHp,TRUE,10,,,,,,
 20210,レヴァリエ,20210.gif,次のターンの終了時に15ダメージ。,TRUE,100,,FALSE,FALSE,FALSE,FALSE,AddState,FALSE,2011,,,,,,
-20401,イテレータ,20401.gif,7ターンの間、HPを毎ターン終了時に1回復。防御スキルの使用ターンはMPが回復しない。,TRUE,30,,FALSE,FALSE,TRUE,FALSE,AddState,FALSE,2032,,,,,,
+20401,プロモート,20401.gif,7ターンの間、HPを毎ターン終了時に1回復。防御スキルの使用ターンはMPが回復しない。,TRUE,30,,FALSE,FALSE,TRUE,FALSE,AddState,TRUE,2031,,,,,,
 20402,オープン,20402.gif,手札枚数を+2。,TRUE,10,,FALSE,FALSE,FALSE,FALSE,AddHandForever,TRUE,2,,,,,,
 20404,軽業ノ重,20404.gif,パンは腹持ちが悪い。パッシブ。3ターン目まで力ダメージと技ダメージを+1。4ターン目以降は-1。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2012,,,,,,
 20406,魔力ノ巻,20406.gif,初手で食え。MP+20。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddMpOverflow,TRUE,20,,,,,,

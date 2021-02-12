@@ -68,7 +68,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 1003053,ブレイク,1003053.gif,3ターンの間、敵の受ける【火】スキルダメージが2倍になる。,FALSE,60,,FALSE,FALSE,FALSE,FALSE,AddState,FALSE,2007,,,,,,
 1004011,瞬間強化,1004011.gif,力・技ポイントを15強化。,FALSE,40,,TRUE,FALSE,FALSE,FALSE,AddPower,TRUE,15,AddTech,TRUE,15,,,
 1004021,あくび,1004021.gif,敵の力・技ポイントを0にする。,FALSE,20,,TRUE,FALSE,FALSE,FALSE,AlterPower,FALSE,0,AlterTech,FALSE,0,,,
-1004021,ねむる,1001031.gif,HPを全回復する。よく寝る子なので無限に寝てられる。,FALSE,50,,TRUE,FALSE,TRUE,FALSE,AddHp,TRUE,99,,,,,,
+1004022,ねむる,1001031.gif,HPを全回復する。よく寝る子なので無限に寝てられる。,FALSE,50,,TRUE,FALSE,TRUE,FALSE,AddHp,TRUE,99,,,,,,
 1004031,超覚醒,1001051.gif,全カードの力ポイント・技ポイントを+10。,FALSE,0,11,FALSE,FALSE,FALSE,FALSE,UpgradeDeck,TRUE,10,,,,,,
 1004032,武器破壊α,1004032.gif,敵がこのターン選択したカードのうち、上側の1つの性能を永久に0/0にする。,FALSE,50,,FALSE,FALSE,FALSE,FALSE,CrashSelectingCardA,FALSE,0,,,,,,
 1004033,武器破壊β,1004033.gif,敵がこのターン選択したカードのうち、下側の1つの性能を永久に0/0にする。,FALSE,50,,FALSE,FALSE,FALSE,FALSE,CrashSelectingCardB,FALSE,0,,,,,,

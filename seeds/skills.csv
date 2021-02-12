@@ -17,7 +17,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 10410,ブロッサム,10410.gif,「HPが1」「力・技ともに勝利している」を全て満たした場合のみ発動する。MPを200にし、これ以外の全スキルを再使用可能にする。,TRUE,1,,FALSE,FALSE,FALSE,FALSE,Brossom,TRUE,1,,,,,,
 20201,ヒール,20201.gif,HPを6回復。防御スキルの使用ターンはMPが回復しない。,TRUE,40,,FALSE,FALSE,TRUE,FALSE,AddHp,TRUE,6,,,,,,
 20202,ファイア,20202.gif,敵に3ダメージ。【火】,TRUE,50,,FALSE,FALSE,FALSE,FALSE,FireDamage,FALSE,3,,,,,,
-20203,仮,20203.gif,まだかりー19,TRUE,10,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,1,,,,,,
+20203,アイス,20203.gif,敵に1ダメージ。,TRUE,10,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,1,,,,,,
 20204,アクセル,20204.gif,MPを50チャージ。,TRUE,20,,FALSE,FALSE,FALSE,FALSE,AddMpOverflow,TRUE,50,,,,,,
 20205,フォーリン,20205.gif,3ターンの間、ターン終了時に敵に2ダメージ。,TRUE,60,,FALSE,FALSE,FALSE,FALSE,AddState,FALSE,2009,,,,,,
 20206,ライズ,20206.gif,全カードの力・技ポイントを+1し、手札枚数を+1し、HPを1回復。このターンMPが回復しない。,TRUE,45,,TRUE,FALSE,TRUE,FALSE,UpgradeDeck,TRUE,1,AddHp,TRUE,1,AddHandForever,TRUE,1
@@ -25,7 +25,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 20208,ブレイズ,20208.gif,敵に6ダメージ。【火】,TRUE,50,,FALSE,FALSE,FALSE,FALSE,FireDamage,FALSE,6,,,,,,
 20209,リザレクト,20209.gif,HPを10回復。防御スキルの使用ターンはMPが回復しない。,TRUE,50,,FALSE,FALSE,TRUE,FALSE,AddHp,TRUE,10,,,,,,
 20210,レヴァリエ,20210.gif,次のターンの終了時に15ダメージ。,TRUE,100,,FALSE,FALSE,FALSE,FALSE,AddState,FALSE,2011,,,,,,
-20401,仮2,20401.gif,まだかりー27,TRUE,10,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,1,,,,,,
+20401,イテレータ,20401.gif,7ターンの間、HPを毎ターン終了時に1回復。防御スキルの使用ターンはMPが回復しない。,TRUE,30,,FALSE,FALSE,TRUE,FALSE,AddState,FALSE,2032,,,,,,
 20402,オープン,20402.gif,手札枚数を+2。,TRUE,10,,FALSE,FALSE,FALSE,FALSE,AddHandForever,TRUE,2,,,,,,
 20404,軽業ノ重,20404.gif,パンは腹持ちが悪い。パッシブ。3ターン目まで力ダメージと技ダメージを+1。4ターン目以降は-1。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2012,,,,,,
 20406,魔力ノ巻,20406.gif,初手で食え。MP+20。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddMpOverflow,TRUE,20,,,,,,

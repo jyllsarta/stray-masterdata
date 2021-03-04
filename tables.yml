@@ -16,3 +16,5 @@ tables:
   - achievement_steps
   - achievement_step_rewards
   - achievement_ranks
+  - gacha_fixed_rewards
+

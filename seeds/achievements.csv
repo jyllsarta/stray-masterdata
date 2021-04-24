@@ -9,6 +9,7 @@ id,type,target_id,description
 107,Achievement::Type::ObtainItem,3,食品サンプルを手に入れる
 108,Achievement::Type::ManualResurrect,,手動全回復をした
 109,Achievement::Type::LoseEnemy,,負けた
+110,Achievement::Type::BeNude,,装備を全部剥がした
 201,Achievement::Type::TotalCoin,,トータルコイン収集枚数
 202,Achievement::Type::TotalStar,,星のカケラ取得量
 203,Achievement::Type::TotalEvent,,トータルイベント回数

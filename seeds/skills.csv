@@ -40,7 +40,7 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 30406,茶魔ノ巻,30406.gif,急いで食え。抹茶味。MP+50。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddMpOverflow,TRUE,50,,,,,,
 30408,岩力ノ箪,30408.gif,力ダメージ・技ダメージ・SPダメージ+1。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddSpDamageForever,TRUE,1,AddPowerDamageForever,TRUE,1,AddTechDamageForever,TRUE,1
 40402,エクレール,40402.gif,敵に7ダメージを与えつつ、敵MP-70。,TRUE,35,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,7,DamageMp,FALSE,70,,,
-40304,創造ノ兎,40304.gif,毎ターン終了時にHP+3。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2034,,,,,,
+40304,創造ノ兎,40304.gif,毎ターン終了時にHP+2。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2034,,,,,,
 40206,フォービド,40206.gif,敵がこのターン選択したカードすべての性能を永久に0/0にする。,TRUE,45,,FALSE,FALSE,FALSE,FALSE,CrashSelectingCardA,FALSE,0,CrashSelectingCardB,FALSE,0,,,
 40408,転生ノ水,40408.gif,致命的なダメージを受けた時、一度だけHP全快で復活する。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2035,,,,,,
 40310,ミラージュ,40310.gif,自身のHPの減っている分だけ敵にダメージを与えつつ、HPを5回復。使うたびにコストが30増加する。,TRUE,30,,TRUE,FALSE,TRUE,FALSE,Muramasa,FALSE,1,AddHp,TRUE,5,AddCost,TRUE,30

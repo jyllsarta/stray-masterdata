@@ -42,8 +42,9 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 40402,エクレール,40402.gif,敵に7ダメージを与えつつ、敵MP-70。,TRUE,35,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,7,DamageMp,FALSE,70,,,
 40304,創造ノ兎,40304.gif,毎ターン終了時にHP+2。パッシブ。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2034,,,,,,
 40206,フォービド,40206.gif,敵がこのターン選択したカードすべての性能を永久に0/0にする。,TRUE,45,,FALSE,FALSE,FALSE,FALSE,CrashSelectingCardA,FALSE,0,CrashSelectingCardB,FALSE,0,,,
-40408,転生ノ水,40408.gif,致命的なダメージを受けた時、一度だけHP全快で復活する。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2035,,,,,,
-40310,ミラージュ,40310.gif,自身のHPの減っている分だけ敵にダメージを与えつつ、HPを5回復。使うたびにコストが30増加する。,TRUE,30,,TRUE,FALSE,TRUE,FALSE,Muramasa,FALSE,1,AddHp,TRUE,5,AddCost,TRUE,30
+40407,転生ノ水,40407.gif,致命的なダメージを受けた時、一度だけHP全快で復活する。,TRUE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2035,,,,,,
+40309,ミラージュ,40309.gif,自身のHPの減っている分だけ敵にダメージを与えつつ、HPを5回復。使うたびにコストが30増加する。,TRUE,30,,TRUE,FALSE,TRUE,FALSE,Muramasa,FALSE,1,AddHp,TRUE,5,AddCost,TRUE,30
+40211,フレア,40211.gif,11ダメージ【火】。3ターンの間、被ダメージ分だけ最大HPが減少する。さらにターン終了時に1ダメージ【火】。,TRUE,50,,FALSE,FALSE,FALSE,FALSE,AddState,TRUE,2036,FireDamage,FALSE,11,,,
 1001021,ヒート,20202.gif,相手に1ダメージ。,FALSE,20,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,1,,,,,,
 1001022,プチヒール,20201.gif,HPを2回復。,FALSE,20,,FALSE,FALSE,FALSE,FALSE,AddHp,TRUE,2,,,,,,
 1001031,猫パンチ,1002011.gif,敵に3ダメージ。,FALSE,30,,FALSE,FALSE,FALSE,FALSE,Damage,FALSE,3,,,,,,

@@ -33,7 +33,7 @@ id,enemy_id,giftable_type,giftable_id,amount
 702,702,RandomItem,635,1
 703,703,RandomItem,655,1
 704,704,RandomItem,675,1
-705,705,RandomItem,700,1
+705,705,Dungeon,7,1
 801,801,RandomItem,700,1
 802,802,RandomItem,720,1
 803,803,RandomItem,740,1

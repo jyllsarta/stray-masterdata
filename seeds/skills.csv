@@ -149,6 +149,6 @@ id,name,icon_image_path,description,for_player,cost,threshold_hp,reusable,is_exh
 1008061,セルガード,1008061.gif,「このターンに受けたダメージと同じ値のシールドを、次のターン開始時に展開する」ステートを付与する。,FALSE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2039,,,,,,
 1008062,強靭化,1008053.gif,全カードの力ポイント・技ポイントを+2。,FALSE,0,,TRUE,FALSE,FALSE,FALSE,UpgradeDeck,TRUE,2,,,,,,
 1008071,アストラル,1008071.gif,毎ターン開始時にシールド3と10MPを付与。,FALSE,0,,FALSE,FALSE,FALSE,TRUE,AddState,TRUE,2040,,,,,,
-1008072,ドライヴ,1008072.gif,全カードを30/30にする。,FALSE,0,35,FALSE,FALSE,FALSE,FALSE,AlterAllDeckCard,TRUE,30,,,,,,
+1008072,ドライヴ,1008072.gif,全カードを30/30にする。,FALSE,0,25,FALSE,FALSE,FALSE,FALSE,AlterAllDeckCard,TRUE,30,,,,,,
 1008074,クロノス,1008074.gif,ターン制限を2減らす。,FALSE,40,,FALSE,FALSE,FALSE,FALSE,ReduceTurnLimit,TRUE,2,,,,,,
-1008075,トパーズ,20210.gif,敵に6ダメージ。MPを30回復する。,FALSE,40,,TRUE,FALSE,FALSE,FALSE,Damage,FALSE,6,AddMpOverflow,TRUE,30,,,
+1008075,トパーズ,20210.gif,敵に5ダメージ。MPを10回復する。,FALSE,40,,TRUE,FALSE,FALSE,FALSE,Damage,FALSE,5,AddMpOverflow,TRUE,10,,,

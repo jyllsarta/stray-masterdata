@@ -26,6 +26,7 @@ id,type,target_id,description
 214,Achievement::Type::WinEnemyCount,,累計で倒した敵の種類
 215,Achievement::Type::ObtainRelic,,レリックの取得数
 216,Achievement::Type::TotalGacha,,累計ポット投入額
+217,Achievement::Type::WinRaidEnemyCount,,累計デイリー討伐のエネミー種類
 301,Achievement::Type::MaxRarityItemEvent,,◆装備をイベントで拾った
 302,Achievement::Type::CoinDoublets,,コイン枚数がゾロ目になる
 401,Achievement::Type::CloseEndingWindow,,エンディングを見た
